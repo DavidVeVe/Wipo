@@ -2,7 +2,7 @@
   width: 100%;
   background-color: $color-primary;
   padding-top: map-get($margin-padding, lg) - 2;
-  padding-left: map-get($margin-padding, lg) + 4;
+  padding-left: map-get($margin-padding, lg) + 5.5;
   padding-bottom: map-get($margin-padding, lg) + 2;
   margin-top: map-get($margin-padding, md);
   position: relative;
@@ -52,7 +52,7 @@
 
 .glide__bullets {
   bottom: -3rem !important;
-  left: 4rem !important;
+  left: 2.8rem !important;
 }
 
 .personalized__bullet {

@@ -28,12 +28,13 @@
 .carousel__text h1 {
   margin-right: 1em;
   margin-bottom: 0.2em;
-  font-size: 2.8rem;
+  font-size: map-get($fonts, paragraphs) + 2;
   font-weight: 900;
 }
 
 .carousel__text small {
-  font-size: map-get($fonts, paragraphs);
+  font-size: map-get($fonts, paragraphs) + 0.3;
+  color: $color-font-gray;
 }
 
 .carousel__text p {

@@ -38,9 +38,12 @@
   margin-bottom: map-get($margin-padding, sm) + 0.5;
   font-size: map-get($fonts, titles);
   line-height: 2.8rem;
+  color: $color-primary-light;
 }
 
 .proposal__info p {
-  font-size: map-get($fonts, paragraphs);
+  font-size: map-get($fonts, paragraphs) + 0.1;
   padding-right: map-get($margin-padding, lg) + 7;
+  color: $color-font-gray;
+  line-height: 1.3rem;
 }

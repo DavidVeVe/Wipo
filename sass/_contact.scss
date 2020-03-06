@@ -23,12 +23,22 @@ textarea {
   border-radius: 8px;
   border: 2px solid #d6d6d6;
   outline-color: $color-primary;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: $color-font-gray;
+}
+
+textarea::placeholder {
+  color: $color-font-gray;
 }
 
 label {
   margin: none;
   padding: 0 map-get($margin-padding, sm) - 0.5;
   font-size: 0.9rem;
+  font-weight: bold;
   position: absolute;
   top: 0.5rem;
   left: 1rem;
@@ -49,6 +59,8 @@ form {
   border: none;
   margin-top: map-get($margin-padding, sm) - 0.2;
   padding: map-get($margin-padding, sm) - 0.1;
+  font-weight: bold;
+  color: #222222;
 }
 
 .contact__info {
@@ -68,13 +80,7 @@ form {
 .contact__info div span {
   margin: 0 map-get($margin-padding, sm);
   padding-top: 0.2rem;
+  color: $color-font-gray;
+  line-height: 1.4rem;
+  font-size: map-get($fonts, subtitles) - 0.1;
 }
-// .contact__info-email {
-//   @include flex-center;
-//   align-items: flex-start;
-// }
-
-// .contact__info-pin {
-//   @include flex-center;
-//   align-items: flex-start;
-// }

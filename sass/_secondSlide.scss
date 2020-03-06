@@ -7,13 +7,20 @@
 .cards h1 {
   font-size: map-get($fonts, titles) + 2;
   font-weight: 900;
-  width: 35rem;
+  width: 45rem;
   margin-bottom: map-get($margin-padding, sm) - 0.2;
+  padding-left: map-get($margin-padding, lg) + 5.5;
+  letter-spacing: -2px;
 }
 
 .cards h4 {
   margin-bottom: map-get($margin-padding, sm) - 0.7;
+  padding-left: map-get($margin-padding, lg) + 5.5;
   color: $color-primary;
+}
+
+.cards__subtitle-strong {
+  font-weight: 900;
 }
 
 .second__slide {
@@ -22,6 +29,7 @@
 
 .second__slide ul {
   height: 15rem !important;
+  margin-top: map-get($margin-padding, md) + 0.5;
 }
 
 .second__slide-container {
@@ -29,13 +37,13 @@
   height: 235px !important;
   border-radius: 6px;
   padding: map-get($margin-padding, sm) - 0.1;
-  box-shadow: 1px 1px 5px #5e5e5e;
+  box-shadow: 1px 1px 5px #c5c5c5;
 }
 
 .second__slide-container div {
   @include flex-center;
   flex-direction: column;
-  padding-top: map-get($margin-padding, sm) + 0.4;
+  padding-top: map-get($margin-padding, sm) + 0.2;
 }
 
 .second__slide-container img {
@@ -44,8 +52,9 @@
 }
 
 .second__slide-container p {
-  font-size: map-get($fonts, paragraphs) - 0.3;
+  font-size: map-get($fonts, paragraphs) - 0.2;
   text-align: center;
+  color: $color-font-gray;
 }
 
 .personalized__bullets {
