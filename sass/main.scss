@@ -1,0 +1,23 @@
+@import "./mixins";
+@import "./variables";
+
+body {
+  @include flex-center;
+}
+
+.page__wrapper {
+  width: 95%;
+  @include flex-center;
+  flex-direction: column;
+}
+
+@import "./reset";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@import "./navbar";
+@import "./carousel";
+@import "./proposal";
+@import "./firstSlide";
+@import "./secondSlide";
+@import "./contact";
+@import "./footer";

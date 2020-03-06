@@ -1,0 +1,20 @@
+{
+  "name": "wipo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:sass": "node-sass --watch sass/main.scss css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "core-js": "^3.6.4"
+  }
+}

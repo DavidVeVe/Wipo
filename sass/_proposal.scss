@@ -1,0 +1,46 @@
+.proposal {
+  @include flex-center;
+  width: 100%;
+  position: relative;
+  margin-top: map-get($margin-padding, md);
+  padding-bottom: map-get($margin-padding, lg);
+  padding-right: map-get($margin-padding, sm);
+}
+
+.proposal__question {
+  width: 45%;
+}
+
+.proposal__question h1 {
+  position: absolute;
+  top: 0;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #ececec;
+}
+
+.proposal__info {
+  width: 55%;
+}
+
+.proposal__info-content {
+  padding-left: 4.1rem;
+}
+
+.proposal__info h2 {
+  margin-bottom: map-get($margin-padding, sm) + 0.5;
+  font-size: map-get($fonts, subtitles);
+  font-weight: bold;
+}
+
+.proposal__info h1 {
+  margin-top: map-get($margin-padding, md) + 1.5;
+  margin-bottom: map-get($margin-padding, sm) + 0.5;
+  font-size: map-get($fonts, titles);
+  line-height: 2.8rem;
+}
+
+.proposal__info p {
+  font-size: map-get($fonts, paragraphs);
+  padding-right: map-get($margin-padding, lg) + 7;
+}

@@ -1,0 +1,80 @@
+.contact {
+  @include flex-center;
+  justify-content: space-between;
+  width: 72%;
+  margin-top: map-get($margin-padding, lg) + 1.8;
+}
+
+.form__wrapper {
+  width: 46%;
+}
+
+.contact h1 {
+  margin: map-get($margin-padding, sm) 0;
+  font-size: map-get($fonts, titles) + 1.5;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: map-get($margin-padding, sm) - 0.2 map-get($margin-padding, sm) + 0.3;
+  margin: map-get($margin-padding, sm) - 0.1 0;
+  width: 95%;
+  border-radius: 8px;
+  border: 2px solid #d6d6d6;
+  outline-color: $color-primary;
+}
+
+label {
+  margin: none;
+  padding: 0 map-get($margin-padding, sm) - 0.5;
+  font-size: 0.9rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  background-color: white;
+}
+
+form {
+  @include flex-center;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.send__btn {
+  width: 46%;
+  background-color: $color-primary;
+  border-radius: 8px;
+  border: none;
+  margin-top: map-get($margin-padding, sm) - 0.2;
+  padding: map-get($margin-padding, sm) - 0.1;
+}
+
+.contact__info {
+  width: 54%;
+  align-self: flex-start;
+  justify-self: center;
+  margin-top: map-get($margin-padding, md) + 2.3;
+}
+
+.contact__info div {
+  margin: map-get($margin-padding, sm) + 0.5 map-get($margin-padding, sm);
+  @include flex-center;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.contact__info div span {
+  margin: 0 map-get($margin-padding, sm);
+  padding-top: 0.2rem;
+}
+// .contact__info-email {
+//   @include flex-center;
+//   align-items: flex-start;
+// }
+
+// .contact__info-pin {
+//   @include flex-center;
+//   align-items: flex-start;
+// }

@@ -1,0 +1,54 @@
+.cards {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: map-get($margin-padding, lg) + 1;
+}
+
+.cards h1 {
+  font-size: map-get($fonts, titles) + 2;
+  font-weight: 900;
+  width: 35rem;
+  margin-bottom: map-get($margin-padding, sm) - 0.2;
+}
+
+.cards h4 {
+  margin-bottom: map-get($margin-padding, sm) - 0.7;
+  color: $color-primary;
+}
+
+.second__slide {
+  width: 100% !important;
+}
+
+.second__slide ul {
+  height: 15rem !important;
+}
+
+.second__slide-container {
+  width: 190px !important;
+  height: 235px !important;
+  border-radius: 6px;
+  padding: map-get($margin-padding, sm) - 0.1;
+  box-shadow: 1px 1px 5px #5e5e5e;
+}
+
+.second__slide-container div {
+  @include flex-center;
+  flex-direction: column;
+  padding-top: map-get($margin-padding, sm) + 0.4;
+}
+
+.second__slide-container img {
+  width: 50px;
+  margin-bottom: map-get($margin-padding, sm) + 0.2;
+}
+
+.second__slide-container p {
+  font-size: map-get($fonts, paragraphs) - 0.3;
+  text-align: center;
+}
+
+.personalized__bullets {
+  bottom: -2.1em !important;
+  left: 13.5rem !important;
+}

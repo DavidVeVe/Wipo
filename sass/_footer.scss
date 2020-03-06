@@ -1,0 +1,40 @@
+footer {
+  width: 75%;
+  margin: map-get($margin-padding, md);
+}
+
+.footer__top {
+  @include flex-center;
+  justify-content: space-between;
+  border-bottom: 1px solid #24c5aa;
+  padding: map-get($margin-padding, sm) - 0.7 0;
+}
+
+.footer__top h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: map-get($margin-padding, sm) - 0.7;
+}
+
+.footer__bottom {
+  @include flex-center;
+  justify-content: space-between;
+  padding: map-get($margin-padding, sm) 0;
+}
+
+.footer__bottom a {
+  text-decoration: none;
+  color: #9e9e9e;
+  font-size: 0.8rem;
+}
+
+.footer__bottom small {
+  color: #9e9e9e;
+  font-size: 0.8rem;
+}
+
+.footer__icon {
+  width: 25px;
+  margin: 0 map-get($margin-padding, sm) - 0.8;
+  padding-top: map-get($margin-padding, sm);
+}

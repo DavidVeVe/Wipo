@@ -1,0 +1,27 @@
+.navbar {
+  @include flex-center;
+  justify-content: space-between;
+  margin-top: 2em;
+  padding: 0;
+}
+
+.navbar__list {
+  @include flex-center;
+  width: 100%;
+  padding: 1.2em;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0px 3px 2px #e6e6e6;
+}
+
+.navbar__list li > * {
+  text-decoration: none;
+  color: #696969;
+  margin: 0 20px;
+  font-size: 1em;
+}
+
+.navbar__logo {
+  font-size: map-get($fonts, titles);
+  margin-right: 1rem;
+  font-weight: bold;
+}

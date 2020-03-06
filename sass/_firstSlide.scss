@@ -1,0 +1,63 @@
+.first__slide {
+  width: 100%;
+  background-color: $color-primary;
+  padding-top: map-get($margin-padding, lg) - 2;
+  padding-left: map-get($margin-padding, lg) + 4;
+  padding-bottom: map-get($margin-padding, lg) + 2;
+  margin-top: map-get($margin-padding, md);
+  position: relative;
+}
+
+.first__slide h4,
+.first__slide h1 {
+  font-size: map-get($fonts, titles);
+  font-weight: bold;
+  color: white;
+}
+
+.first__slide h1 {
+  font-size: map-get($fonts, titles) + 3.2;
+  margin-bottom: map-get($margin-padding, sm) + 1.7;
+}
+
+.slide__container {
+  @include flex-center;
+  width: 38.5rem !important;
+  height: 250px !important;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slide__container img {
+  width: 40%;
+  height: 100%;
+  margin-right: map-get($margin-padding, sm) + 0.7;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.slide__container-info h1 {
+  font-weight: 400;
+  font-size: map-get($fonts, titles) + 2.5;
+  margin-bottom: map-get($margin-padding, sm);
+}
+
+.slide__container-info p {
+  font-size: map-get($fonts, paragraphs);
+  padding-left: 5px;
+  color: white;
+  line-height: 1.4rem;
+  letter-spacing: 0.8px;
+}
+
+.glide__bullets {
+  bottom: -3rem !important;
+  left: 4rem !important;
+}
+
+.personalized__bullet {
+  width: 11px !important;
+  height: 11px !important;
+  background-color: #494949 !important;
+  margin-right: map-get($margin-padding, sm) - 0.5 !important;
+}
