@@ -685,4 +685,9 @@ footer {
   .contact h1 {
     text-align: center; }
   .send__btn {
-    align-self: center; } }
+    align-self: center; }
+  .footer__top {
+    flex-direction: column; }
+  .footer__bottom {
+    flex-direction: column;
+    height: 7rem; } }
