@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "build": "cd css && cleancss -o main.min.css main.css",
     "build:sass": "node-sass --watch sass/main.scss css/main.css"
   },
   "keywords": [],
