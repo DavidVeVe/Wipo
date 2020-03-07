@@ -3,6 +3,7 @@
 
 body {
   @include flex-center;
+  font-family: "Roboto", sans-serif !important;
 }
 
 .page__wrapper {
@@ -12,16 +13,17 @@ body {
 }
 
 .burguer {
-  color: white;
-  font-size: 2rem;
+  color: $color-black;
+  font-size: 1.6rem;
   font-weight: bold;
   border-radius: 50%;
-  padding: 0.5rem;
+  padding: 0.3rem;
   position: fixed;
   top: 0.5rem;
   left: 1.5rem;
   z-index: 150;
-  display: none;
+  border-radius: 20%;
+  background-color: white;
 }
 
 @import "./reset";

@@ -1,7 +1,8 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-family: "Roboto", sans-serif !important; }
 
 .page__wrapper {
   width: 95%;
@@ -11,16 +12,17 @@ body {
   flex-direction: column; }
 
 .burguer {
-  color: white;
-  font-size: 2rem;
+  color: #1c252c;
+  font-size: 1.6rem;
   font-weight: bold;
   border-radius: 50%;
-  padding: 0.5rem;
+  padding: 0.3rem;
   position: fixed;
   top: 0.5rem;
   left: 1.5rem;
   z-index: 150;
-  display: none; }
+  border-radius: 20%;
+  background-color: white; }
 
 html,
 body,
@@ -277,7 +279,7 @@ q:after {
   text-decoration: none;
   color: #9e9e9e;
   margin: 0 20px;
-  font-size: 1.1em; }
+  font-size: 1em; }
 
 .navbar__logo {
   width: 5.9rem;
@@ -797,3 +799,18 @@ footer {
     flex-direction: column;
     height: 7rem;
     text-align: center; } }
+
+@media only screen and (min-width: 1025px) {
+  .burguer {
+    display: none !important; } }
+
+@media only screen and (max-width: 1200px) {
+  .carousel__text p {
+    font-size: 1.8rem; }
+  .proposal__info h1 {
+    padding-left: 5rem; }
+  .proposal__info-content h2 {
+    padding-left: 5rem; }
+  .proposal__info-content p {
+    padding-left: 5rem;
+    padding-right: 1rem; } }

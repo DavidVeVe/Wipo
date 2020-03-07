@@ -215,5 +215,27 @@
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1025px) {
+  .burguer {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel__text p {
+    font-size: 1.8rem;
+  }
+
+  .proposal__info h1 {
+    padding-left: 5rem;
+  }
+
+  .proposal__info-content h2 {
+    padding-left: 5rem;
+  }
+
+  .proposal__info-content p {
+    padding-left: 5rem;
+    padding-right: 1rem;
+  }
 }
