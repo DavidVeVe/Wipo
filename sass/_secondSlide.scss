@@ -1,7 +1,11 @@
 .cards {
   width: 100%;
-  background-color: #f5f5f5;
   margin-top: map-get($margin-padding, lg) + 1;
+  background-image: url("../assets/images/circles.png");
+  background-size: 42%;
+  background-repeat: no-repeat;
+  background-position-y: 2rem;
+  background-position-x: 100%;
 }
 
 .cards h1 {
@@ -11,6 +15,7 @@
   margin-bottom: map-get($margin-padding, sm) - 0.2;
   padding-left: map-get($margin-padding, lg) + 5.5;
   letter-spacing: -2px;
+  color: $color-black;
 }
 
 .cards h4 {
@@ -27,6 +32,10 @@
   width: 100% !important;
 }
 
+.glide__track {
+  padding-bottom: map-get($margin-padding, sm) + 1.4;
+}
+
 .second__slide ul {
   height: 15rem !important;
   margin-top: map-get($margin-padding, md) + 0.5;
@@ -38,6 +47,7 @@
   border-radius: 6px;
   padding: map-get($margin-padding, sm) - 0.1;
   box-shadow: 1px 1px 5px #c5c5c5;
+  background-color: #faf9f9e0;
 }
 
 .second__slide-container div {
@@ -58,6 +68,6 @@
 }
 
 .personalized__bullets {
-  bottom: -2.1em !important;
+  bottom: 0rem !important;
   left: 13.5rem !important;
 }

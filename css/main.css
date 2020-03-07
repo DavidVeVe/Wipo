@@ -261,13 +261,13 @@ q:after {
 
 .navbar__list li > * {
   text-decoration: none;
-  color: #a8a8a8;
+  color: #9e9e9e;
   margin: 0 20px;
-  font-size: 1em; }
+  font-size: 1.1em; }
 
 .navbar__logo {
-  font-size: 2rem;
-  margin-right: 1rem;
+  width: 5.9rem;
+  margin-right: 2.6rem;
   font-weight: bold; }
 
 .carousel-indicators {
@@ -278,7 +278,7 @@ q:after {
 .individual__indicator {
   width: 10px !important;
   height: 10px !important;
-  background-color: #34d9c3 !important;
+  background-color: #32d9c3 !important;
   border-radius: 50%; }
 
 .carousel__info {
@@ -295,7 +295,14 @@ q:after {
   justify-content: flex-start;
   padding-top: 6em; }
 
-.carousel__text h1 {
+.carousel__text div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.carousel__logo {
+  width: 8.2rem;
   margin-right: 1em;
   margin-bottom: 0.2em;
   font-size: 3rem;
@@ -303,24 +310,27 @@ q:after {
 
 .carousel__text small {
   font-size: 1.3rem;
-  color: #a8a8a8; }
+  color: #9e9e9e; }
 
 .carousel__text p {
   margin-top: 1.2em;
   font-size: 2rem;
   line-height: 1.3em;
-  color: #73e4d6; }
+  color: #99ece1; }
 
 .social__icons {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 8.5em; }
+  margin-bottom: 8.5em;
+  padding-right: 3rem; }
 
 .social__icons > * {
   margin: 10px;
-  width: 30px; }
+  width: 37px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 2px #e7e7e7; }
 
 .carousel {
   width: 100%;
@@ -330,13 +340,15 @@ q:after {
 .arrow__right,
 .arrow__left {
   position: absolute;
-  bottom: 5em; }
+  bottom: 2rem; }
 
 .arrow__left {
-  left: 1em; }
+  left: 1.5em;
+  width: 65px; }
 
 .arrow__right {
-  right: 6.2em; }
+  right: 6.2em;
+  width: 65px; }
 
 .proposal {
   display: flex;
@@ -345,18 +357,27 @@ q:after {
   width: 100%;
   position: relative;
   margin-top: 3rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
   padding-right: 1rem; }
 
 .proposal__question {
-  width: 45%; }
+  width: 45%;
+  padding-bottom: 6rem;
+  overflow: hidden; }
+
+.proposal__question img {
+  width: 90%;
+  position: relative;
+  top: 5rem;
+  left: -2rem; }
 
 .proposal__question h1 {
   position: absolute;
   top: 0;
+  z-index: 0;
   font-size: 7rem;
   font-weight: bold;
-  color: #ececec; }
+  color: #f5f5f5; }
 
 .proposal__info {
   width: 55%; }
@@ -367,28 +388,30 @@ q:after {
 .proposal__info h2 {
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #1c252c; }
 
 .proposal__info h1 {
-  margin-top: 4.5rem;
+  margin-top: -2rem;
   margin-bottom: 1.5rem;
   font-size: 2rem;
-  line-height: 2.8rem;
-  color: #73e4d6; }
+  line-height: 2.5rem;
+  color: #99ece1; }
 
 .proposal__info p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-right: 13rem;
-  color: #a8a8a8;
-  line-height: 1.3rem; }
+  color: #9e9e9e;
+  line-height: 1.4rem; }
 
 .first__slide {
   width: 100%;
-  background-color: #34d9c3;
-  padding-top: 4rem;
+  background-image: url("../assets/images/balls.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 6.6rem;
   padding-left: 11.5rem;
   padding-bottom: 8rem;
-  margin-top: 3rem;
   position: relative; }
 
 .first__slide h4,
@@ -441,8 +464,12 @@ q:after {
 
 .cards {
   width: 100%;
-  background-color: #f5f5f5;
-  margin-top: 7rem; }
+  margin-top: 7rem;
+  background-image: url("../assets/images/circles.png");
+  background-size: 42%;
+  background-repeat: no-repeat;
+  background-position-y: 2rem;
+  background-position-x: 100%; }
 
 .cards h1 {
   font-size: 4rem;
@@ -450,18 +477,22 @@ q:after {
   width: 45rem;
   margin-bottom: 0.8rem;
   padding-left: 11.5rem;
-  letter-spacing: -2px; }
+  letter-spacing: -2px;
+  color: #1c252c; }
 
 .cards h4 {
   margin-bottom: 0.3rem;
   padding-left: 11.5rem;
-  color: #34d9c3; }
+  color: #32d9c3; }
 
 .cards__subtitle-strong {
   font-weight: 900; }
 
 .second__slide {
   width: 100% !important; }
+
+.glide__track {
+  padding-bottom: 2.4rem; }
 
 .second__slide ul {
   height: 15rem !important;
@@ -472,7 +503,8 @@ q:after {
   height: 235px !important;
   border-radius: 6px;
   padding: 0.9rem;
-  box-shadow: 1px 1px 5px #c5c5c5; }
+  box-shadow: 1px 1px 5px #c5c5c5;
+  background-color: #faf9f9e0; }
 
 .second__slide-container div {
   display: flex;
@@ -488,10 +520,10 @@ q:after {
 .second__slide-container p {
   font-size: 0.8rem;
   text-align: center;
-  color: #a8a8a8; }
+  color: #9e9e9e; }
 
 .personalized__bullets {
-  bottom: -2.1em !important;
+  bottom: 0rem !important;
   left: 13.5rem !important; }
 
 .contact {
@@ -508,7 +540,8 @@ q:after {
 .contact h1 {
   margin: 1rem 0;
   font-size: 3.5rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #1c252c; }
 
 input,
 textarea {
@@ -517,14 +550,14 @@ textarea {
   width: 95%;
   border-radius: 8px;
   border: 2px solid #d6d6d6;
-  outline-color: #34d9c3;
+  outline-color: #32d9c3;
   font-weight: bold; }
 
 input::placeholder {
-  color: #a8a8a8; }
+  color: #9e9e9e; }
 
 textarea::placeholder {
-  color: #a8a8a8; }
+  color: #9e9e9e; }
 
 label {
   margin: none;
@@ -534,7 +567,8 @@ label {
   position: absolute;
   top: 0.5rem;
   left: 1rem;
-  background-color: white; }
+  background-color: white;
+  color: #1c252c; }
 
 form {
   display: flex;
@@ -546,13 +580,13 @@ form {
 
 .send__btn {
   width: 46%;
-  background-color: #34d9c3;
+  background-color: #32d9c3;
   border-radius: 8px;
   border: none;
   margin-top: 0.8rem;
   padding: 0.9rem;
   font-weight: bold;
-  color: #222222; }
+  color: #1c252c; }
 
 .contact__info {
   width: 54%;
@@ -571,13 +605,17 @@ form {
 .contact__info div span {
   margin: 0 1rem;
   padding-top: 0.2rem;
-  color: #a8a8a8;
+  color: #9e9e9e;
   line-height: 1.4rem;
   font-size: 1.1rem; }
 
 footer {
   width: 72%;
-  margin: 3rem; }
+  margin: 3rem;
+  margin-top: 5rem; }
+
+.footer__logo {
+  width: 6rem; }
 
 .footer__top {
   display: flex;
@@ -609,6 +647,6 @@ footer {
   font-size: 0.8rem; }
 
 .footer__icon {
-  width: 25px;
+  width: 19px;
   margin: 0 0.2rem;
   padding-top: 1rem; }

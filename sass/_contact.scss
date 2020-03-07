@@ -13,6 +13,7 @@
   margin: map-get($margin-padding, sm) 0;
   font-size: map-get($fonts, titles) + 1.5;
   font-weight: bold;
+  color: $color-black;
 }
 
 input,
@@ -43,6 +44,7 @@ label {
   top: 0.5rem;
   left: 1rem;
   background-color: white;
+  color: $color-black;
 }
 
 form {
@@ -60,7 +62,7 @@ form {
   margin-top: map-get($margin-padding, sm) - 0.2;
   padding: map-get($margin-padding, sm) - 0.1;
   font-weight: bold;
-  color: #222222;
+  color: $color-black;
 }
 
 .contact__info {

@@ -10,9 +10,18 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
-    <script src="https://kit.fontawesome.com/8afbd6834e.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/8afbd6834e.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
@@ -20,7 +29,11 @@
       <!-- menu -->
       <nav class="navbar">
         <ul class="navbar__list">
-          <h1 class="navbar__logo">wipo</h1>
+          <img
+            class="navbar__logo"
+            src="./assets/images/wipo.png"
+            alt="wipo logo"
+          />
           <li><a href="#">Inicio</a></li>
           <li><a href="#">¿Qué es?</a></li>
           <li><a href="#">¿Comó funciona?</a></li>
@@ -41,21 +54,33 @@
             data-slide-to="0"
             class="active individual__indicator"
           ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="individual__indicator"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="individual__indicator"></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="1"
+            class="individual__indicator"
+          ></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="2"
+            class="individual__indicator"
+          ></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="d-flex">
               <img
-                src="https://images.pexels.com/photos/2852438/pexels-photo-2852438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                src="./assets/images/img1.png"
                 class="d-block w-50"
-                alt="..."
+                alt="carousel image"
               />
               <section class="carousel__info d-flex">
                 <article class="carousel__text">
                   <div>
-                    <h1>wipo</h1>
+                    <img
+                      src="./assets/images/wipo.png"
+                      class="carousel__logo"
+                      alt="wipo logo"
+                    />
                     <small>The coolest wifi point</small>
                   </div>
                   <p>
@@ -64,9 +89,9 @@
                   </p>
                 </article>
                 <section class="social__icons">
-                  <img src="./assets/images/facebook.png" alt="fb" />
-                  <img src="./assets/images/twitter.png" alt="insta" />
-                  <img src="./assets/images/linkedin.png" alt="twtr" />
+                  <img src="./assets/images/fb-circle.png" alt="fb" />
+                  <img src="./assets/images/ins-circle.png" alt="insta" />
+                  <img src="./assets/images/tw-circle.png" alt="twtr" />
                 </section>
               </section>
             </div>
@@ -74,14 +99,18 @@
           <div class="carousel-item">
             <div class="d-flex">
               <img
-                src="https://images.pexels.com/photos/2852438/pexels-photo-2852438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                src="./assets/images/img1.png"
                 class="d-block w-50"
-                alt="..."
+                alt="carousel image"
               />
               <section class="carousel__info d-flex">
                 <article class="carousel__text">
                   <div>
-                    <h1>wipo</h1>
+                    <img
+                      src="./assets/images/wipo.png"
+                      class="carousel__logo"
+                      alt="wipo logo"
+                    />
                     <small>The coolest wifi point</small>
                   </div>
                   <p>
@@ -90,9 +119,9 @@
                   </p>
                 </article>
                 <section class="social__icons">
-                  <img src="./assets/images/facebook.png" alt="fb" />
-                  <img src="./assets/images/twitter.png" alt="insta" />
-                  <img src="./assets/images/linkedin.png" alt="twtr" />
+                  <img src="./assets/images/fb-circle.png" alt="fb" />
+                  <img src="./assets/images/ins-circle.png" alt="insta" />
+                  <img src="./assets/images/tw-circle.png" alt="twtr" />
                 </section>
               </section>
             </div>
@@ -100,14 +129,18 @@
           <div class="carousel-item">
             <div class="d-flex">
               <img
-                src="https://images.pexels.com/photos/2852438/pexels-photo-2852438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                src="./assets/images/img1.png"
                 class="d-block w-50"
-                alt="..."
+                alt="carousel image"
               />
               <section class="carousel__info d-flex">
                 <article class="carousel__text">
                   <div>
-                    <h1>wipo</h1>
+                    <img
+                      src="./assets/images/wipo.png"
+                      class="carousel__logo"
+                      alt="wipo logo"
+                    />
                     <small>The coolest wifi point</small>
                   </div>
                   <p>
@@ -116,38 +149,29 @@
                   </p>
                 </article>
                 <section class="social__icons">
-                  <img src="./assets/images/twitter.png" alt="fb" />
-                  <img src="./assets/images/facebook.png" alt="insta" />
-                  <img src="./assets/images/linkedin.png" alt="twtr" />
+                  <img src="./assets/images/fb-circle.png" alt="insta" />
+                  <img src="./assets/images/ins-circle.png" alt="fb" />
+                  <img src="./assets/images/tw-circle.png" alt="twtr" />
                 </section>
               </section>
             </div>
           </div>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon arrow__left"
-            aria-hidden="true"
-            ><img src="./assets/images/left.png" alt=""
+        <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"
+            ><img
+              class="arrow__left"
+              src="./assets/images/left.png"
+              alt="arrow icon"
           /></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon arrow__right"
-            aria-hidden="true"
-          >
-            <img src="./assets/images/right.png" alt=""
+        <a href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon " aria-hidden="true">
+            <img
+              class="arrow__right"
+              src="./assets/images/right.png"
+              alt="arrow icon"
           /></span>
           <span class="sr-only">Next</span>
         </a>
@@ -158,7 +182,7 @@
       <section class="proposal">
         <article class="proposal__question">
           <h1>¿Qué es?</h1>
-          <img src="" alt="" />
+          <img src="./assets/images/robot.png" alt="proposal image" />
         </article>
         <article class="proposal__info">
           <h1>
@@ -179,164 +203,332 @@
           </div>
         </article>
       </section>
-        
-        <!-- how it works section-->
-        
-        <section class="first__slide">
-          <h4>Cómo</h4>
-          <h1>funciona?</h1>
-          <div class="glide first__slide-glide">
-            <div class="glide__track" data-glide-el="track">
-              <ul class="glide__slides">
-                <li class="glide__slide slide__container"><img src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""><div class="slide__container-info"><h1>01.</h1><p><strong>CON WIPO...</strong>Tus clientes podrán navegar cómodamente de forma segura. Los datos de tu internet se compartirán de manera equitativa entre todos los presentes.</p></div></li>
-                <li class="glide__slide slide__container"><img src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""><div class="slide__container-info"><h1>02.</h1><p>Te ahorrarás esa pregunta, ¿me pasas la contraseña, por fa?.</p></div></li>
-                <li class="glide__slide slide__container"><img src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""><div class="slide__container-info"><h1>03.</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sollicitudin varius sagittis nam vitae pretium sodales, laoreet cras tincidunt sapien hac eros nunc dictum torquent sociosqu ligula etiam.</p></div></li>
-                <li class="glide__slide slide__container"><img src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""><div class="slide__container-info"><h1>04.</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sollicitudin varius sagittis nam vitae pretium sodales, laoreet cras tincidunt sapien hac eros nunc dictum torquent sociosqu ligula etiam.</p></div></li>
-                <li class="glide__slide slide__container"><img src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""><div class="slide__container-info"><h1>05.</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sollicitudin varius sagittis nam vitae pretium sodales, laoreet cras tincidunt sapien hac eros nunc dictum torquent sociosqu ligula etiam.</p></div></li>
-                <li class="glide__slide slide__container"><img src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""><div class="slide__container-info"><h1>06.</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sollicitudin varius sagittis nam vitae pretium sodales, laoreet cras tincidunt sapien hac eros nunc dictum torquent sociosqu ligula etiam.</p></div></li>
-              </ul>
-            </div>
-            <div class="glide__bullets" data-glide-el="controls[nav]">
-              <button class="glide__bullet personalized__bullet" data-glide-dir="=0"></button>
-              <button class="glide__bullet personalized__bullet" data-glide-dir="=1"></button>
-              <button class="glide__bullet personalized__bullet" data-glide-dir="=2"></button>
-              <button class="glide__bullet personalized__bullet" data-glide-dir="=3"></button>
-            </div>
-          </div>
 
+      <!-- how it works section-->
+
+      <section class="first__slide">
+        <h4>Cómo</h4>
+        <h1>funciona?</h1>
+        <div class="glide first__slide-glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide slide__container">
+                <img
+                  src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  alt="silder image"
+                />
+                <div class="slide__container-info">
+                  <h1>01.</h1>
+                  <p>
+                    <strong>CON WIPO...</strong>Tus clientes podrán navegar
+                    cómodamente de forma segura. Los datos de tu internet se
+                    compartirán de manera equitativa entre todos los presentes.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide slide__container">
+                <img
+                  src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  alt="slider image"
+                />
+                <div class="slide__container-info">
+                  <h1>02.</h1>
+                  <p>
+                    Te ahorrarás esa pregunta, ¿me pasas la contraseña, por fa?.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide slide__container">
+                <img
+                  src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  alt="slider image"
+                />
+                <div class="slide__container-info">
+                  <h1>03.</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    sollicitudin varius sagittis nam vitae pretium sodales,
+                    laoreet cras tincidunt sapien hac eros nunc dictum torquent
+                    sociosqu ligula etiam.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide slide__container">
+                <img
+                  src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  alt="slider image"
+                />
+                <div class="slide__container-info">
+                  <h1>04.</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    sollicitudin varius sagittis nam vitae pretium sodales,
+                    laoreet cras tincidunt sapien hac eros nunc dictum torquent
+                    sociosqu ligula etiam.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide slide__container">
+                <img
+                  src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  alt="slider image"
+                />
+                <div class="slide__container-info">
+                  <h1>05.</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    sollicitudin varius sagittis nam vitae pretium sodales,
+                    laoreet cras tincidunt sapien hac eros nunc dictum torquent
+                    sociosqu ligula etiam.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide slide__container">
+                <img
+                  src="https://images.pexels.com/photos/3617496/pexels-photo-3617496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  alt="slider image"
+                />
+                <div class="slide__container-info">
+                  <h1>06.</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    sollicitudin varius sagittis nam vitae pretium sodales,
+                    laoreet cras tincidunt sapien hac eros nunc dictum torquent
+                    sociosqu ligula etiam.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button
+              class="glide__bullet personalized__bullet"
+              data-glide-dir="=0"
+            ></button>
+            <button
+              class="glide__bullet personalized__bullet"
+              data-glide-dir="=1"
+            ></button>
+            <button
+              class="glide__bullet personalized__bullet"
+              data-glide-dir="=2"
+            ></button>
+            <button
+              class="glide__bullet personalized__bullet"
+              data-glide-dir="=3"
+            ></button>
+          </div>
+        </div>
       </section>
-        
-        <!-- cards section-->
-        <section class="cards">
-            <h1>¡Usa el internet a tu favor!</h1>
-            <h4>Conoce el proceso para tener WIPO</h4>
-            <h4 class="cards__subtitle-strong">¡Wi know you want it</h4>
 
-          <div class="glide second__slide">
-            <div class="glide__track" data-glide-el="track">
-              <ul class="glide__slides">
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Instalaremos y configuraremos WIPO en tu negocio. Recibirás un equipo de Access Point de última generación que no pagarás (COMODATO).</p>
-                  </div>
-                </li>
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Revisaremos permanentemente el funcionamiento del Access Point. Sí existiera una falla, la solucionaremos en menos de 48 horas. Sí el equipo se dañara, lo reemplazaremos sin costo.</p>
-                  </div>
-                </li>
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Analizaremos tu establecimiento.</p>
-                  </div>
-                </li>
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Te propondremos un plan de servicio, un equipo, y un ancho de banda, acorde a tus necesidades.</p>
-                  </div>
-                </li>
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Te ofreceremos distintas opciones de pago.</p>
-                  </div>
-                </li>
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Te ofreceremos distintas opciones de pago.</p>
-                  </div>
-                </li>
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Te ofreceremos distintas opciones de pago.</p>
-                  </div>
-                </li>
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Te ofreceremos distintas opciones de pago.</p>
-                  </div>
-                </li>
-                <li class="glide__slide second__slide-container">
-                  <div>
-                    <img src="./assets/images/facebook.png" alt="">
-                    <p>Te ofreceremos distintas opciones de pago.</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="glide__bullets personalized__bullets" data-glide-el="controls[nav]">
-              <button class="glide__bullet personalized__bullet" data-glide-dir="=0"></button>
-              <button class="glide__bullet personalized__bullet" data-glide-dir="=1"></button>
-              <button class="glide__bullet personalized__bullet" data-glide-dir="=2"></button>
-            </div>
+      <!-- cards section-->
+      <section class="cards">
+        <h1>¡Usa el internet a tu favor!</h1>
+        <h4>Conoce el proceso para tener WIPO</h4>
+        <h4 class="cards__subtitle-strong">¡Wi know you want it</h4>
+
+        <div class="glide second__slide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img
+                    src="./assets/images/configuration.png"
+                    alt="configuration logo"
+                  />
+                  <p>
+                    Instalaremos y configuraremos WIPO en tu negocio. Recibirás
+                    un equipo de Access Point de última generación que no
+                    pagarás (COMODATO).
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img
+                    src="./assets/images/assistant.png"
+                    alt="assistant logo"
+                  />
+                  <p>
+                    Revisaremos permanentemente el funcionamiento del Access
+                    Point. Sí existiera una falla, la solucionaremos en menos de
+                    48 horas. Sí el equipo se dañara, lo reemplazaremos sin
+                    costo.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img src="./assets/images/search.png" alt="serach logo" />
+                  <p>Analizaremos tu establecimiento.</p>
+                </div>
+              </li>
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img src="./assets/images/antenna.png" alt="antenna logo" />
+                  <p>
+                    Te propondremos un plan de servicio, un equipo, y un ancho
+                    de banda, acorde a tus necesidades.
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img
+                    src="./assets/images/credit-card.png"
+                    alt="credit-card logo"
+                  />
+                  <p>Te ofreceremos distintas opciones de pago.</p>
+                </div>
+              </li>
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img
+                    src="./assets/images/configuration.png"
+                    alt="configuration logo"
+                  />
+                  <p>Te ofreceremos distintas opciones de pago.</p>
+                </div>
+              </li>
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img
+                    src="./assets/images/assistant.png"
+                    alt="assistant logo"
+                  />
+                  <p>Te ofreceremos distintas opciones de pago.</p>
+                </div>
+              </li>
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img src="./assets/images/search.png" alt="search logo" />
+                  <p>Te ofreceremos distintas opciones de pago.</p>
+                </div>
+              </li>
+              <li class="glide__slide second__slide-container">
+                <div>
+                  <img src="./assets/images/search.png" alt="search logo" />
+                  <p>Te ofreceremos distintas opciones de pago.</p>
+                </div>
+              </li>
+            </ul>
           </div>
+          <div
+            class="glide__bullets personalized__bullets"
+            data-glide-el="controls[nav]"
+          >
+            <button
+              class="glide__bullet personalized__bullet"
+              data-glide-dir="=0"
+            ></button>
+            <button
+              class="glide__bullet personalized__bullet"
+              data-glide-dir="=1"
+            ></button>
+            <button
+              class="glide__bullet personalized__bullet"
+              data-glide-dir="=2"
+            ></button>
+          </div>
+        </div>
+      </section>
 
-        </section>
-        
-        <!-- contact section -->
-        
+      <!-- contact section -->
+
       <section class="contact">
-        <div class='form__wrapper'>
+        <div class="form__wrapper">
           <h1>Contacto</h1>
-          <form id='contact-form' action="" >
+          <form id="contact-form" action="">
             <label for="contact-form">Nombre Completo</label>
-            <input type="text" placeholder="Nombre" name='name'required>
-            <input type="email" placeholder="Correo Electrónico" name='email' required>
-            <textarea name="" id="" cols="30" rows="6" placeholder="Comentarios" name='comments' form="contact-form"></textarea>
+            <input type="text" placeholder="Nombre" name="name" required />
+            <input
+              type="email"
+              placeholder="Correo Electrónico"
+              name="email"
+              required
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="6"
+              placeholder="Comentarios"
+              name="comments"
+              form="contact-form"
+            ></textarea>
             <button type="submit" class="send__btn">Enviar</button>
           </form>
         </div>
         <section class="contact__info">
-          <div class="contact__info-email"><img src="./assets/images/envelope.png" alt=""> <span>contacto@wipo.mx</span></div>
-          <div class="contact__info-pin"><img src="./assets/images/pin.png" alt=""><span>Setélite #2829 - 6 <br>Residencial del Bosque, <br>Guadalajara, Jal.</span></div>
+          <div class="contact__info-email">
+            <img src="./assets/images/envelope.png" alt="envelope logo" />
+            <span>contacto@wipo.mx</span>
+          </div>
+          <div class="contact__info-pin">
+            <img src="./assets/images/pin.png" alt="pn logo" /><span
+              >Setélite #2829 - 6 <br />Residencial del Bosque,
+              <br />Guadalajara, Jal.</span
+            >
+          </div>
         </section>
       </section>
 
-    <footer>
-      <section class="footer__top">
-        <h1>wipo<h1>
+      <footer>
+        <section class="footer__top">
+          <img
+            src="./assets/images/wipo.png"
+            class="footer__logo"
+            alt="wipo logo"
+          />
           <div>
-            <a href=""><img class="footer__icon" src="./assets/images/facebook.png" alt=""/></a>
-            <a href=""><img class="footer__icon" src="./assets/images/linkedin.png" alt=""/></a>
-            <a href=""><img class="footer__icon" src="./assets/images/twitter.png" alt=""/></a>
+            <a href="#"
+              ><img
+                class="footer__icon"
+                src="./assets/images/fb.png"
+                alt="facebook icon"
+            /></a>
+            <a href="#"
+              ><img
+                class="footer__icon"
+                src="./assets/images/instagram.png"
+                alt="instagram icon"
+            /></a>
+            <a href="#"
+              ><img
+                class="footer__icon"
+                src="./assets/images/twitter.png"
+                alt="twitter icon"
+            /></a>
           </div>
         </section>
         <section class="footer__bottom">
           <div>
-            <a href="">Aviso de privacidad</a>
+            <a href="#">Aviso de privacidad</a>
             <span> | </span>
-            <a href="">Términos y condiciones</a>
+            <a href="#">Términos y condiciones</a>
           </div>
           <small>Todos los derechos reservados wipo 2018</small>
         </section>
       </footer>
     </section>
-      <script
+    <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
-      ></script>
-      <script
+    ></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
-      ></script>
-      <script
+    ></script>
+    <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
-      ></script>
-      <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-      <script src="https://unpkg.com/@glidejs/glide"></script>
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="https://unpkg.com/@glidejs/glide"></script>
 
-      <script src="./slides/index.js"></script>
-    </body>
-    </html>
-    
+    <script src="./slides/index.js"></script>
+  </body>
+</html>

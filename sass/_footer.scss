@@ -1,6 +1,11 @@
 footer {
   width: 72%;
   margin: map-get($margin-padding, md);
+  margin-top: map-get($margin-padding, lg) - 1;
+}
+
+.footer__logo {
+  width: 6rem;
 }
 
 .footer__top {
@@ -34,7 +39,7 @@ footer {
 }
 
 .footer__icon {
-  width: 25px;
+  width: 19px;
   margin: 0 map-get($margin-padding, sm) - 0.8;
   padding-top: map-get($margin-padding, sm);
 }

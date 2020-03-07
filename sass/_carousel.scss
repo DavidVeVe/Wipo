@@ -25,7 +25,13 @@
   padding-top: 6em;
 }
 
-.carousel__text h1 {
+.carousel__text div {
+  @include flex-center;
+  flex-direction: column;
+}
+
+.carousel__logo {
+  width: 8.2rem;
   margin-right: 1em;
   margin-bottom: 0.2em;
   font-size: map-get($fonts, paragraphs) + 2;
@@ -48,11 +54,14 @@
   @include flex-center;
   flex-direction: column;
   margin-bottom: 8.5em;
+  padding-right: map-get($margin-padding, md);
 }
 
 .social__icons > * {
   margin: 10px;
-  width: 30px;
+  width: 37px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 2px #e7e7e7;
 }
 
 .carousel {
@@ -64,13 +73,15 @@
 .arrow__right,
 .arrow__left {
   position: absolute;
-  bottom: 5em;
+  bottom: 2rem;
 }
 
 .arrow__left {
-  left: 1em;
+  left: 1.5em;
+  width: 65px;
 }
 
 .arrow__right {
   right: 6.2em;
+  width: 65px;
 }
