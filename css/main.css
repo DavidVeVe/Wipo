@@ -714,8 +714,17 @@ footer {
     padding: 0 2rem; }
   .first__slide {
     display: none; }
-  .cards {
-    display: none; }
+  .cards h1 {
+    padding: 0rem;
+    width: 100%;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .cards h4 {
+    padding: 0 1rem;
+    text-align: center; }
+  .personalized__bullets {
+    left: 10rem !important; }
   .contact {
     flex-direction: column;
     width: 100%; }
@@ -725,11 +734,12 @@ footer {
     text-align: center; }
   .contact__info {
     width: 100%;
-    margin-top: 2rem; }
+    margin-top: 4rem; }
   .send__btn {
     align-self: center; }
   .footer__top {
     flex-direction: column; }
   .footer__bottom {
     flex-direction: column;
-    height: 7rem; } }
+    height: 7rem;
+    text-align: center; } }

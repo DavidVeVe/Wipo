@@ -3,9 +3,8 @@
     display: none;
   }
 
-  .slide {
-    //  display: none;
-  }
+  //   CAROUSEL SECTION BELOW
+
   .carousel {
     height: 650px;
   }
@@ -71,6 +70,8 @@
     width: 45px;
   }
 
+  //   PROPOSAL SECTION BELOW
+
   .proposal {
     flex-direction: column;
     margin-top: 9rem;
@@ -105,9 +106,29 @@
     display: none;
   }
 
+  //   CARDS SECTION BELOW
+
   .cards {
-    display: none;
   }
+
+  .cards h1 {
+    padding: 0rem;
+    width: 100%;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .cards h4 {
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .personalized__bullets {
+    left: 10rem !important;
+  }
+
+  //   CONTACT SECTION BELOW
 
   .contact {
     flex-direction: column;
@@ -124,12 +145,14 @@
 
   .contact__info {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
   .send__btn {
     align-self: center;
   }
+
+  //   FOOTER SECTION BELOW
 
   .footer__top {
     flex-direction: column;
@@ -138,6 +161,7 @@
   .footer__bottom {
     flex-direction: column;
     height: 7rem;
+    text-align: center;
   }
 }
 
