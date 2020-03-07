@@ -86,3 +86,7 @@ form {
   line-height: 1.4rem;
   font-size: map-get($fonts, subtitles) - 0.1;
 }
+
+.contact__info div img {
+  width: 20px;
+}
