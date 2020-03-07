@@ -11,6 +11,19 @@ body {
   flex-direction: column;
 }
 
+.burguer {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  z-index: 150;
+  display: none;
+}
+
 @import "./reset";
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
