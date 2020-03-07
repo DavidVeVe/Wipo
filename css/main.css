@@ -684,6 +684,8 @@ footer {
     width: 90%; }
   .contact h1 {
     text-align: center; }
+  .contact__info {
+    width: 100%; }
   .send__btn {
     align-self: center; }
   .footer__top {
