@@ -1,0 +1,74 @@
+@media only screen and (max-width: 630px) {
+  .navbar {
+    display: none;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .proposal {
+    flex-direction: column;
+  }
+
+  .proposal__question {
+    display: none;
+  }
+
+  .proposal__info {
+    width: 100%;
+  }
+
+  .proposal__info h1 {
+    text-align: center;
+  }
+
+  .proposal__info h2 {
+    text-align: center;
+  }
+
+  .proposal__info-content {
+    padding: 0;
+  }
+
+  .proposal__info p {
+    padding: 0 map-get($margin-padding, sm) + 1;
+  }
+
+  .first__slide {
+    display: none;
+  }
+
+  .cards {
+    display: none;
+  }
+
+  .contact {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form__wrapper {
+    width: 90%;
+  }
+
+  .contact h1 {
+    text-align: center;
+  }
+
+  .send__btn {
+    align-self: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}

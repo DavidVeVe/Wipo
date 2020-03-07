@@ -653,3 +653,36 @@ footer {
   width: 19px;
   margin: 0 0.2rem;
   padding-top: 1rem; }
+
+@media only screen and (max-width: 630px) {
+  .navbar {
+    display: none; }
+  .slide {
+    display: none; }
+  .proposal {
+    flex-direction: column; }
+  .proposal__question {
+    display: none; }
+  .proposal__info {
+    width: 100%; }
+  .proposal__info h1 {
+    text-align: center; }
+  .proposal__info h2 {
+    text-align: center; }
+  .proposal__info-content {
+    padding: 0; }
+  .proposal__info p {
+    padding: 0 2rem; }
+  .first__slide {
+    display: none; }
+  .cards {
+    display: none; }
+  .contact {
+    flex-direction: column;
+    width: 100%; }
+  .form__wrapper {
+    width: 90%; }
+  .contact h1 {
+    text-align: center; }
+  .send__btn {
+    align-self: center; } }
