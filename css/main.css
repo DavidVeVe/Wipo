@@ -670,7 +670,7 @@ footer {
   .carousel__wrapper-img {
     width: 100% !important; }
   .carousel__logo {
-    width: 6rem;
+    width: 4rem;
     margin: 0; }
   .carousel__text {
     align-items: center; }
@@ -680,7 +680,8 @@ footer {
     margin-top: 20px;
     align-items: center; }
   .carousel__text p {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
+    text-align: center;
     margin-top: 1rem; }
   .social__icons {
     flex-direction: row;
@@ -692,6 +693,9 @@ footer {
     width: 28px; }
   .carousel-indicators {
     display: none !important; }
+  .arrow__left,
+  .arrow__right {
+    width: 45px; }
   .proposal {
     flex-direction: column;
     margin-top: 9rem; }

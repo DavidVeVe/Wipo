@@ -29,7 +29,7 @@
   }
 
   .carousel__logo {
-    width: 6rem;
+    width: 4rem;
     margin: 0;
   }
   .carousel__text {
@@ -45,7 +45,8 @@
   }
 
   .carousel__text p {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
+    text-align: center;
     margin-top: 1rem;
   }
 
@@ -63,6 +64,11 @@
 
   .carousel-indicators {
     display: none !important;
+  }
+
+  .arrow__left,
+  .arrow__right {
+    width: 45px;
   }
 
   .proposal {
