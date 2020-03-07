@@ -3,12 +3,14 @@
   justify-content: space-between;
   margin-top: 2em;
   padding: 0;
+  width: 100%;
 }
 
 .navbar__list {
   @include flex-center;
-  width: 100%;
+  width: 80%;
   padding: 1.2em;
+  margin-left: map-get($margin-padding, md) + 0.8;
   border-bottom-right-radius: 30px;
   box-shadow: 0px 3px 2px #e6e6e6;
 }

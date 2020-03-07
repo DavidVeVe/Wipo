@@ -248,14 +248,16 @@ q:after {
   align-items: center;
   justify-content: space-between;
   margin-top: 2em;
-  padding: 0; }
+  padding: 0;
+  width: 100%; }
 
 .navbar__list {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
   padding: 1.2em;
+  margin-left: 3.8rem;
   border-bottom-right-radius: 30px;
   box-shadow: 0px 3px 2px #e6e6e6; }
 
@@ -272,19 +274,18 @@ q:after {
 
 .carousel-indicators {
   position: absolute;
-  right: -13rem;
+  right: -15.2rem;
   bottom: 2rem; }
 
 .individual__indicator {
-  width: 10px !important;
-  height: 10px !important;
+  width: 12px !important;
+  height: 12px !important;
   background-color: #32d9c3 !important;
   border-radius: 50%; }
 
 .carousel__info {
   width: 50%;
-  justify-content: space-between;
-  padding: 0 4em; }
+  justify-content: space-between; }
 
 .carousel__text {
   display: flex;
@@ -293,7 +294,8 @@ q:after {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding-top: 6em; }
+  padding-top: 6em;
+  padding-left: 6rem; }
 
 .carousel__text div {
   display: flex;
@@ -325,7 +327,7 @@ q:after {
   align-items: center;
   flex-direction: column;
   margin-bottom: 8.5em;
-  padding-right: 3rem; }
+  padding-right: 1rem; }
 
 .social__icons > * {
   margin: 10px;
@@ -348,7 +350,7 @@ q:after {
   width: 65px; }
 
 .arrow__right {
-  right: 6.2em;
+  right: 0.5rem;
   width: 65px; }
 
 .proposal {
