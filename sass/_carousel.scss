@@ -46,7 +46,7 @@
 
 .carousel__text p {
   margin-top: 1.2em;
-  font-size: map-get($fonts, titles);
+  font-size: map-get($fonts, titles) + 0.1;
   line-height: 1.3em;
   color: $color-primary-light;
 }
